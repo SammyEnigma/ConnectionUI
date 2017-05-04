@@ -2,7 +2,7 @@
 
 Standard connection toolbar for WinForms apps that need a SQL Server connection in a dropdown. Nuget package **AoConnnectionUI**.
 
-After installing the package, right click on the VS toolbox and Add Items from /bin/ConnectionUI.dll. This will add **DbConnection** toolbar to the toolbox.
+After installing the package, right click on the VS toolbox and Add Items from your project directory /bin/Debug/ConnectionUI.dll. This will add **DbConnection** toolbar to the toolbox.
 
 ![toolbox](/toolbox.png)
 
