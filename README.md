@@ -6,6 +6,8 @@ After installing the package, right click on the VS toolbox and Add Items from y
 
 ![toolbox](/toolbox.png)
 
+Note that the *dsConnections* item shown is used internally by the toolbar, and is not meant for use on its own.
+
 After dropping on a form, you can add your own buttons to the toolbar appropriate for your app. Shown here is the default toolbar with no additional controls.
 
 ![toolbar](/toolbar.png)
