@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsConnections" targetNamespace="http://tempuri.org/dsConnections.xsd" xmlns:mstns="http://tempuri.org/dsConnections.xsd" xmlns="http://tempuri.org/dsConnections.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsConnections" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsConnections" msprop:Generator_UserDSName="dsConnections">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ConnectionItem" msprop:Generator_TableClassName="ConnectionItemDataTable" msprop:Generator_TableVarName="tableConnectionItem" msprop:Generator_RowChangedName="ConnectionItemRowChanged" msprop:Generator_TablePropName="ConnectionItem" msprop:Generator_RowDeletingName="ConnectionItemRowDeleting" msprop:Generator_RowChangingName="ConnectionItemRowChanging" msprop:Generator_RowEvHandlerName="ConnectionItemRowChangeEventHandler" msprop:Generator_RowDeletedName="ConnectionItemRowDeleted" msprop:Generator_RowClassName="ConnectionItemRow" msprop:Generator_UserTableName="ConnectionItem" msprop:Generator_RowEvArgName="ConnectionItemRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" />
+              <xs:element name="ConnectionString" msprop:Generator_ColumnVarNameInTable="columnConnectionString" msprop:Generator_ColumnPropNameInRow="ConnectionString" msprop:Generator_ColumnPropNameInTable="ConnectionStringColumn" msprop:Generator_UserColumnName="ConnectionString" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ConnectionItem" />
+      <xs:field xpath="mstns:Name" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
