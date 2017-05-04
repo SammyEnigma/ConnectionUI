@@ -9,3 +9,5 @@ After installing the package, right click on the VS toolbox and Add Items from /
 The connection button on the far left displays this dialog for adding and managing connection strings:
 
 ![connections](/connections.png)
+
+To avoid storing credentials in clear text, use **{login}** instead of the User ID and Password tokens. A login dialog will appear when you click Test All Connections. Saved credentials are encrypted with DPAPI in folder C:\Users\%profile%\AppData\Local\Adam O'Neil Software\Query Tools
